@@ -101,3 +101,18 @@ console.log("Exam Score Greater Than Pass Mark:", examScore > passMark);
 // ==========================================
 // TASK 4 — CONDITIONAL STATEMENTS
 // ==========================================
+
+// Test 1
+let score = 70;
+
+if (score >= 70){
+    console.log("Score:", score + "| Grade: A — Distinction");
+} else if (score >= 60){
+    console.log("Score:", score + "| Grade: B — Merit");
+} else if (score >= 50){
+    console.log("Score:", score + "| Grade: C — Pass");
+} else if (score >= 40){
+    console.log("Score:", score + "| Grade: D — Near Pass");
+} else {
+    console.log("Score:", score + "| Grade: F — Fail");
+}
