@@ -62,6 +62,41 @@ console.log("Remainder when divided by 7:", totalScore % 7);
 // TASK 3 — TYPE CONVERSION
 // ==========================================
 
+// ==========================================
+// TASK 3 — TYPE CONVERSION
+// ==========================================
+
+let studentAge = "19";
+let examScore = "74.5";
+let passMark = "50";
+let studentName = 101;
+
+// Convert the age string to a whole number because the student's age should not contain decimals.
+studentAge = parseInt(studentAge);
+
+console.log("Student Age:", studentAge);
+console.log("Student Age Type:", typeof studentAge);
+
+// Convert the exam score string to a decimal number because exam scores can contain decimal values.
+examScore = parseFloat(examScore);
+
+console.log("Exam Score:", examScore);
+console.log("Exam Score Type:", typeof examScore);
+
+// Convert the pass mark string to a number using Number() because the value represents a numeric mark.
+passMark = Number(passMark);
+
+console.log("Pass Mark:", passMark);
+console.log("Pass Mark Type:", typeof passMark);
+
+// Convert the student name value to a string because the assignment requires the final value to be a string.
+studentName = String(studentName);
+
+console.log("Student Name:", studentName);
+console.log("Student Name Type:", typeof studentName);
+
+// Check if the exam score is greater than the pass mark
+console.log("Exam Score Greater Than Pass Mark:", examScore > passMark);
 
 // ==========================================
 // TASK 4 — CONDITIONAL STATEMENTS
